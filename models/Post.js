@@ -28,12 +28,12 @@ Post.init(
             key: 'id',
          },
       },
-      image_url: {
-         // * img path (can be a string url, one uplodaded to Heroku)
-         // * to be included in post object.
-         type: DataTypes.STRING,
-         allowNull: false,
-      },
+      // image_url: {
+      //    // * img path (can be a string url, one uplodaded to Heroku)
+      //    // * to be included in post object.
+      //    type: DataTypes.STRING,
+      //    allowNull: false,
+      // },
    },
    {
       sequelize,

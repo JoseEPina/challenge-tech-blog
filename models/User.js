@@ -49,12 +49,12 @@ User.init(
             len: [4],
          },
       },
-      avatar_url: {
-         // * img path (can be a string url, one uplodaded to Heroku)
-         // * to be included in user object.
-         type: DataTypes.STRING,
-         allowNull: false,
-      },
+      // avatar_url: {
+      //    // * img path (can be a string url, one uplodaded to Heroku)
+      //    // * to be included in user object.
+      //    type: DataTypes.STRING,
+      //    allowNull: false,
+      // },
    },
    {
       // Define Hooks function to peform our password hash
