@@ -72,7 +72,7 @@ router.post('/', withAuth, (req, res) => {
    // expects {title: 'Taskmaster goes public!',
    // post_url: 'https://taskmaster.com/press', user_id: 1
    Post.create({
-      title: req.body.post_title,
+      title: req.body.title,
       content: req.body.content,
       user_id: req.session.user_id,
       // image_path: path,
@@ -80,7 +80,7 @@ router.post('/', withAuth, (req, res) => {
       .then((dbPostData) => res.json(dbPostData))
       .catch((err) => {
          console.log(err);
-         res.status(500).json(err);
+         res.status(500).json({message: 'Post.create() failed!', err: err});
       });
 });
 
