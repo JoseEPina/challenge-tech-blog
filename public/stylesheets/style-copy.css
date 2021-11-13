@@ -111,7 +111,7 @@ select,
 textarea,
 optgroup {
    font: inherit;
-   margin: 0;
+   margin: 8;
 }
 optgroup {
    font-weight: bold;
@@ -119,6 +119,11 @@ optgroup {
 button,
 input {
    overflow: visible;
+   width: 10%;
+}
+input {
+   width: 30%;
+   padding: 8px 10px;
 }
 button,
 select {
@@ -157,6 +162,7 @@ legend {
 }
 textarea {
    overflow: auto;
+   max-width: 100%;
 }
 [type='checkbox'],
 [type='radio'] {
@@ -373,10 +379,10 @@ a {
 }
 .w3-input {
    padding: 8px;
-   display: block;
+   display: flexbox;
    border: none;
    border-bottom: 1px solid #ccc;
-   width: 100%;
+   width: 30%;
 }
 .w3-select {
    padding: 9px 0;
