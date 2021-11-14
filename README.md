@@ -61,13 +61,17 @@ GIVEN a CMS-style blog site
 - WHEN I am idle on the site for more than a set time
 - THEN I am able to view comments but I am prompted to log in again before I can add, update, or delete comments
 ```
+
 ## Application Output Example
 
+[Link to Video on Google Drive](https://watch.screencastify.com/v/LXwUWxRqGQaARHrPJdxW)
 
 ## Project URLs
 
 -  The URL of the GitHub repository:
    https://github.com/JoseEPina/challenge-tech-blog
+-  The URL to deployed app in Heroku:
+   https://joseepina-tech-blog.herokuapp.com/
 
 ## License
 
@@ -77,7 +81,7 @@ Licensed under the [MIT License](https://choosealicense.com/licenses/mit).
 
 ## Questions
 
-Employee Tracker created by [JoseEPina](https://github.com/JoseEPina).
+Tech Blog created by [JoseEPina](https://github.com/JoseEPina).
 
 For any additional questions or comments, please send a message to the following address:
 
