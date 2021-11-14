@@ -1,4 +1,20 @@
-# challenge-tech-blog
+# Challenge: Tech-Blog
+
+![License Badge](./assets/badge.svg)
+
+## Description
+
+The purpose of this project was to build a CMS-Style blog website, similar to a WordPress site, when users can publish their own blog posts and comment on other developers' posts as well. The project website was built completely from scratch and it is deployed to Heroku.
+
+Also, the project follows the **_MVC Paradigm_** in its architectural structure, using [Handlebars.js](https://www.npmjs.com/package/express-handlebars) as the templating language, [Sequelize](https://www.npmjs.com/package/sequelize) as the ORM, and the [express-session](https://www.npmjs.com/package/express-session) npm package for authentication.
+
+## Table of Contents
+
+-  [User Story](#user-story)
+-  [Acceptance Criteria](#acceptance-criteria)
+-  [Application Output Example](#application-output-example)
+-  [License](#license)
+-  [Questions](#questions)
 
 ## User Story
 
@@ -45,3 +61,24 @@ GIVEN a CMS-style blog site
 - WHEN I am idle on the site for more than a set time
 - THEN I am able to view comments but I am prompted to log in again before I can add, update, or delete comments
 ```
+## Application Output Example
+
+
+## Project URLs
+
+-  The URL of the GitHub repository:
+   https://github.com/JoseEPina/challenge-tech-blog
+
+## License
+
+Copyright (c) 2021 Jose E Pina. All rights reserved.
+
+Licensed under the [MIT License](https://choosealicense.com/licenses/mit).
+
+## Questions
+
+Employee Tracker created by [JoseEPina](https://github.com/JoseEPina).
+
+For any additional questions or comments, please send a message to the following address:
+
+GitHub Email Address: <jose.edpina@gmail.com>

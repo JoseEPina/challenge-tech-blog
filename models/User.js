@@ -49,6 +49,7 @@ User.init(
             len: [4],
          },
       },
+      // For Future Development: (To allow image uploads to posts)
       // avatar_url: {
       //    // * img path (can be a string url, one uplodaded to Heroku)
       //    // * to be included in user object.

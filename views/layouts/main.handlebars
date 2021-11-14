@@ -4,7 +4,7 @@
       <meta charset='UTF-8' />
       <meta name='viewport' content='width=device-width, initial-scale=1.0' />
       <title>This Bleehhhgg</title>
-      <link rel='stylesheet' href='/stylesheets/style-copy.css' />
+      <link rel='stylesheet' href='/stylesheets/style.css' />
    </head>
 
    <body class='w3-light-grey'>
@@ -16,8 +16,8 @@
             </h1>
             <p><span class='w3-tag'>Welcome to the blog!</span></p>
             <nav>
+               <a href='/dashboard'>dashboard</a>
                {{#if loggedIn}}
-                  <a href='/dashboard'>dashboard</a>
                   <button id='logout' class='btn-no-style'>logout</button>
                {{else}}
                   <a href='/login'>login</a>

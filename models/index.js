@@ -12,20 +12,6 @@ Post.belongsTo(User, {
    onDelete: 'SET NULL',
 });
 
-// belongsToMany method allows User and
-// Post models to query each other's info
-User.belongsToMany(Post, {
-   through: Comment,
-   foreignKey: 'user_id',
-   onDelete: 'SET NULL',
-});
-
-Post.belongsToMany(User, {
-   through: Comment,
-   foreignKey: 'post_id',
-   onDelete: 'SET NULL',
-});
-
 // Create Associations for Comments
 Comment.belongsTo(User, {
    foreignKey: 'user_id',
