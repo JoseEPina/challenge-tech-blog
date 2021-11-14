@@ -1,6 +1,6 @@
 # Challenge: Tech-Blog
 
-![License Badge](./assets/badge.svg)
+![License Badge](./public/assets/badge.svg)
 
 ## Description
 
